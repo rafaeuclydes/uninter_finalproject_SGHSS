@@ -1,16 +1,69 @@
-# React + Vite
+VidaPlus – Sistema de Gestão Hospitalar e de Serviços de Saúde (SGHSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação Front-end desenvolvida em React, com foco em proporcionar uma interface simples, intuitiva e funcional para gerenciamento básico de pacientes, agendamentos e acesso ao sistema.
 
-Currently, two official plugins are available:
+📌 Descrição do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O VidaPlus (SGHSS) é um sistema front-end voltado para modernizar e organizar rotinas administrativas de um ambiente de saúde.
+O sistema oferece:
 
-## React Compiler
+Login de acesso
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Dashboard inicial
 
-## Expanding the ESLint configuration
+Cadastro, listagem e exclusão de pacientes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Agendamento e visualização de consultas
+
+Navegação fluida entre telas via React Router
+
+Armazenamento de dados em localStorage (simulação de backend)
+
+O foco é demonstrar, de forma funcional, como um sistema hospitalar pode organizar suas principais operações de forma simples, responsiva e intuitiva.
+
+🖥️ Tecnologias Utilizadas
+Tecnologia	Utilização
+React	Base do front-end, organização em componentes
+React Router DOM	Navegação SPA entre as telas
+HTML5 / CSS3	Estrutura e estilo da aplicação
+JavaScript (ES6+)	Lógica de funcionamento e hooks
+localStorage	Simulação de persistência de dados
+Vite	Ambiente e servidor de desenvolvimento
+📎 Funcionalidades Principais
+🔐 Login
+
+Acesso simples e direto ao sistema.
+
+Validação básica de formulário.
+
+🏥 Gerenciamento de Pacientes
+
+Cadastro de novos pacientes
+
+Listagem completa
+
+Exclusão de registros
+
+Interface semelhante à de sistemas reais
+
+📅 Agendamentos
+
+Cadastro de consultas
+
+Formulário com paciente, especialidade, data e hora
+
+Página dedicada para visualização dos agendamentos (lista completa)
+
+📊 Dashboard
+
+Visão geral do sistema
+
+Acesso rápido às funções principais
+
+🧭 Navbar funcional
+
+Links de acesso às páginas
+
+Botão de logout
+
+Logo com gradiente suave em azul e verde
